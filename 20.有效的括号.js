@@ -25,7 +25,7 @@ var isValid = function(s) {
         if(!dict[s[i]]){
             array.push(s[i])
         }else if(dict[s[i]] == array[array.length-1]) {
-            array.splice(array.length-1,1);
+            array.pop();
         }else{
             return false;
         }
