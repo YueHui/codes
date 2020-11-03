@@ -26,7 +26,6 @@ var addBinary = function(a, b) {
             }
             grow = 1;
         }else{
-            
             grow = 0;
         }
 
