@@ -29,7 +29,7 @@ var addBinary = function(a, b) {
             
             grow = 0;
         }
-        // console.log(indexA,indexB);
+
         result = r+result;
         if(i==bigger-1&&grow){
             result = 1+result;
